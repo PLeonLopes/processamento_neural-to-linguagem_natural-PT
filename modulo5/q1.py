@@ -29,7 +29,8 @@ model.compile(optimizer=opt, loss="mean_squared_error")
 model.fit(xs,ys,epochs=400)
 
 model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
-
 # Seu código aqui
-
+'''
+Ocorreu um problema na realizações das questões abaixo, devido a versão do Tensorflow, por isso não estão respondidas.
+'''
 model.fit(xs,ys,epochs=400)

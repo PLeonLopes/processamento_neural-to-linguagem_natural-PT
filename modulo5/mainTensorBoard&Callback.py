@@ -16,6 +16,7 @@ from tensorflow.keras.callbacks import TensorBoard
 
 tf.__version__
 
+# CÓDIGO DO JUPYTER NOTEBOOK
 class ExtendedTensorBoard(TensorBoard):
     """
     Adaptado de https://github.com/tensorflow/tensorflow/issues/31542
